@@ -475,6 +475,71 @@
 
 }
     }
+
+    @media (max-width: 768px) {
+
+  /* HERO MAIS AJUSTADO */
+  .hero {
+    padding: 5rem 0 2.5rem;
+    min-height: auto;
+  }
+
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* TEXTO CENTRALIZADO */
+  .hero-text-anim {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  .hero-sub {
+    font-size: 0.95rem;
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero-btns {
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  /* CARD MAIS COMPACTO */
+  .hero-card {
+    padding: 1.3rem;
+    max-width: 100%;
+  }
+
+  .hc-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .hc-stat {
+    padding: 0.7rem;
+  }
+
+  .hc-stat-val {
+    font-size: 1.2rem;
+  }
+
+  /* REMOVE ELEMENTOS QUE POLUEM */
+  .hero-floating {
+    display: none;
+  }
+
+  .orb-1,
+  .orb-2 {
+    display: none;
+  }
+}
   </style>
 </head>
 <body>
