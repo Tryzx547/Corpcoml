@@ -339,6 +339,141 @@
       .footer-grid { grid-template-columns: 1fr; }
       .sobre-numbers { grid-template-columns: 1fr 1fr; }
       section { padding: 4rem 0; }
+
+      html {
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* ===== MELHORIAS MOBILE ===== */
+
+@media (max-width: 768px) {
+
+  /* Container mais confortável */
+  .container {
+    width: 94vw;
+  }
+
+  /* HEADER */
+  .header-inner {
+    padding: 0.8rem 0;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 6rem 0 3rem;
+    text-align: center;
+  }
+
+  .hero-grid {
+    gap: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-sub {
+    font-size: 0.95rem;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero-btns {
+    justify-content: center;
+  }
+
+  /* HERO CARD */
+  .hero-card {
+    padding: 1.5rem;
+  }
+
+  /* SOBRE */
+  .sobre-grid {
+    gap: 2.5rem;
+  }
+
+  .sobre-text {
+    text-align: center;
+  }
+
+  /* CARDS */
+  .mvv-card {
+    text-align: left;
+  }
+
+  /* NÚMEROS */
+  .sobre-numbers {
+    gap: 1rem;
+  }
+
+  .num-val {
+    font-size: 2rem;
+  }
+
+  /* SOLUÇÕES */
+  .sol-card {
+    padding: 1.5rem;
+  }
+
+  /* CONTATO */
+  .contato-grid {
+    gap: 2rem;
+  }
+
+  .form-card {
+    padding: 1.5rem;
+  }
+
+  /* BOTÕES */
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* WHATSAPP */
+  .whatsapp-fab {
+    width: 48px;
+    height: 48px;
+    bottom: 1.2rem;
+    right: 1.2rem;
+  }
+}
+
+
+/* ===== TELAS MUITO PEQUENAS ===== */
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 1.7rem !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+
+  .section-header p {
+    font-size: 0.9rem;
+  }
+
+  .hero-badge {
+    font-size: 0.7rem;
+  }
+
+  .hc-stat-val {
+    font-size: 1.2rem;
+  }
+
+  .seg-card {
+    padding: 1.2rem 0.8rem;
+  }
+
+}
     }
   </style>
 </head>
